@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,28 +46,35 @@
     </div><br>
 </header>
 
-    <form action="/" method="GET" class="formularios">
+<br>
+
+    <form action="/" method="GET" class="centrado">
     <div>    
         <label for="nombre"></label>
-        <div><input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required minlength="2"></div>
+        <div><input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required minlength="2" class="formularios"></div>
     </div>
+    <br>
     <div>    
         <label for="usuario"></label>
-        <div><input type="text" name="usuario" id="usuario" placeholder="Usuario" required minlength="2"></div>
+        <div><input type="text" name="usuario" id="usuario" placeholder="Usuario" required minlength="2" class="formularios"></div>
     </div>
+    <br>
     <div>    
         <label for="nacimiento">Fecha De Nacimiento</label>
-       <div><input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha De Nacimiento" required></div>
+       <div><input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha De Nacimiento" required class="formularios"></div>
     </div>
+    <br>
     <div>    
         <label for="domicilio"></label>
-        <div><input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required></div>
+        <div><input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required class="formularios"></div>
     </div>
+    <br>
     <div>    
         <label for="perfil" required>Perfil del usuario</label>
         <div><input type="radio" name="perfil" value="Compra">Comprador
         <input type="radio" name="perfil" value="Venta">Vendedor</div>
     </div>
+    <br>
     <div>    
         <label for="interes" required>Intereses</label>
         <div><input type="checkbox" name="interes" value="Electro">Electro
@@ -76,23 +83,29 @@
         <input type="checkbox" name="interes" value="Jugueteria">Jugueteria
         <input type="checkbox" name="interes" value="Vida sana">Vida sana</div>
     </div>
+    <br>
     <div>    
         <label for="foto">Foto de usuario</label>
         <div><input type="file" name="foto" accept=".jpg, .jpeg" required></div>
     </div> 
+    <br>
     <div>   
         <label for="password"></label>
-        <div><input type="password" name="password" placeholder="Contraseña" required></div>
+        <div><input type="password" name="password" placeholder="Contraseña" required class="formularios"></div>
     </div>
+    <br>
     <div>    
         <label for="password"></label>
-        <div><input type="password" name="password" placeholder="Confirmar Contraseña" required></div>
+        <div><input type="password" name="password" placeholder="Confirmar Contraseña" required class="formularios"></div>
     </div>
+    <br>
     <div>    
         <input type="submit" class="boton-envio">
         <input type="reset" class="boton-envio">
     </div>
     </form>
+
+    <br>
 
     <footer class="centrado">
         <div class="footer-centrado">

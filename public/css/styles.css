@@ -52,8 +52,12 @@ ul.main-nav{
 }
 
 .formularios{
-    text-align: center;
-}
+    width: 70%;
+    padding: 8px ;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+ }
 
 .burger-menu {
     background-color: blue;
@@ -107,6 +111,11 @@ h3{
 .boton-envio{
     background-color: blue;
     color: white;
+    width: 50%;
+    border-radius: 3px;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-around;
 }
 
 article {
@@ -209,6 +218,7 @@ div.container1.flexing2{
     top: -15px;
     margin-right: -18vw;
 }  
+
 
 
 
